@@ -62,12 +62,3 @@ Used RDKit to extract molecular descriptors from SMILES:
 
 ---
 
-## 📊 Sample Visualization
-
-> Predicted vs Actual LogS
-
-```python
-sns.regplot(x=y_test, y=y_pred, scatter_kws={"alpha": 0.4})
-plt.xlabel("Actual LogS")
-plt.ylabel("Predicted LogS")
-plt.title("Predicted vs. Actual Solubility")
